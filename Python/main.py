@@ -5,7 +5,7 @@ ser = serial.Serial('COM6', 9600)
 keyboard = Controller()
 
 print("Start")
-time.sleep(5.0)
+time.sleep(6.0)
 
 while True:
     if ser.in_waiting > 0:
